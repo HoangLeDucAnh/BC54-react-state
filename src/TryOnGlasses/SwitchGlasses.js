@@ -65,7 +65,18 @@ export default class SwitchGlasses extends Component {
           </div>
         </div>
         <div className="d-flex justify-content-center">
-          <div className="d-flex justify-content-center align-item-center flex-wrap my-5 px-5 gap-5">
+          <div
+            className="d-flex justify-content-center align-item-center flex-wrap border border-success"
+            style={{
+              gridColumnGap: "150px",
+              gridRowGap: "50px",
+              width: "90%",
+              marginTop: "100px",
+              padding: "20px",
+            }}
+          >
+            <h1>Try it:</h1>
+
             <a
               className="btn"
               style={{
